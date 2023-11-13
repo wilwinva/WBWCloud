@@ -1,0 +1,31 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\projects\nwm-cloud
+3 info clean removing C:\projects\nwm-cloud\apps\lsn\node_modules
+4 silly rimrafDir C:\projects\nwm-cloud\apps\lsn\node_modules
+5 info clean removing C:\projects\nwm-cloud\apps\tdms-react\node_modules
+6 silly rimrafDir C:\projects\nwm-cloud\apps\tdms-react\node_modules
+7 info clean removing C:\projects\nwm-cloud\packages\azure-authentication\node_modules
+8 silly rimrafDir C:\projects\nwm-cloud\packages\azure-authentication\node_modules
+9 info clean removing C:\projects\nwm-cloud\packages\azure-npm-tester\node_modules
+10 silly rimrafDir C:\projects\nwm-cloud\packages\azure-npm-tester\node_modules
+11 info clean removing C:\projects\nwm-cloud\packages\react-hooks\node_modules
+12 silly rimrafDir C:\projects\nwm-cloud\packages\react-hooks\node_modules
+13 info clean removing C:\projects\nwm-cloud\packages\types\node_modules
+14 silly rimrafDir C:\projects\nwm-cloud\packages\types\node_modules
+15 info clean removing C:\projects\nwm-cloud\packages\uifabric\node_modules
+16 silly rimrafDir C:\projects\nwm-cloud\packages\uifabric\node_modules
+17 verbose rimrafDir removed C:\projects\nwm-cloud\packages\react-hooks\node_modules
+18 info clean removing C:\projects\nwm-cloud\packages\util\node_modules
+19 silly rimrafDir C:\projects\nwm-cloud\packages\util\node_modules
+20 verbose rimrafDir removed C:\projects\nwm-cloud\apps\lsn\node_modules
+21 verbose rimrafDir removed C:\projects\nwm-cloud\apps\tdms-react\node_modules
+22 error Error: Command failed: C:\Program Files\nodejs\node.exe C:\projects\nwm-cloud\node_modules\rimraf\bin.js --no-glob C:\projects\nwm-cloud\packages\uifabric\node_modules\
+22 error     at makeError (C:\projects\nwm-cloud\node_modules\execa\index.js:174:9)
+22 error     at C:\projects\nwm-cloud\node_modules\execa\index.js:278:16
