@@ -1,0 +1,16 @@
+{
+  "name": "@nwm/azure-npm-tester-example",
+  [VERSION]
+  "description": "This package tests Azure NPM artifacts for the NWM project. This package will not be deployed in a production environment. Ideally, this package will be run automatically as a suite of automated tests.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "bash",
+    "npm",
+    "azure"
+  ],
+  "author": "",
+  "license": "ISC"
+}
